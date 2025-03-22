@@ -45,14 +45,18 @@ if (key&&documents&&pen&&(apple||orange)){
 
 //Задача 5
 
-// let num = prompt ('Введите число', '');
-// if (num%3 === 0 && num%5 === 0) {
-//     alert ('FizBuz');
-// } else if (num%3 === 0) {
-//     alert ('Buz');
-// } else if (num%5 === 0){
-//     alert ('Fiz');
-// }
+let num = prompt ('Введите число', '');
+if (num === '' || num === null || num === ' '){
+    alert ('Отменено');
+} else if (num%3 === 0 && num%5 === 0){
+    alert ('FizBuz');
+} else if (num%5 === 0){
+    alert ('Fiz');
+} else if (num%3 === 0) {
+    alert ('Buz'); 
+} else {
+    alert ('Попробуйте еще раз', '');
+}
 
 //Задача 6
 
@@ -104,13 +108,13 @@ console.log (`Привет, ${newStr}!`);
 
 //Задача 2*  (я наверно здесь неправильно сделала)
 
-let num1 = +prompt ('Введите число', '');
-let num2 = +prompt ('Сколько отнять', '');
-let num3 = +prompt ('Сколько прибавить', '');
-let num4 = +prompt ('Разделить на', '');
-let result = ((num1-num2)+num3)/num4;
+// let num1 = +prompt ('Введите число', '');
+// let num2 = +prompt ('Сколько отнять', '');
+// let num3 = +prompt ('Сколько прибавить', '');
+// let num4 = +prompt ('Разделить на', '');
+// let result = ((num1-num2)+num3)/num4;
 
-console.log (`((${num1}-${num2})+${num3})/${num4}=${result}`)
+// console.log (`((${num1}-${num2})+${num3})/${num4}=${result}`)
 
 
 //Задача 3*
