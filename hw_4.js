@@ -112,11 +112,11 @@ function fooBoo (condition, foo, boo) {
 }
 
 function foo () {
-    console.log (foo);
+    console.log ('foo');
 }
 
 function boo () {
-    console.log (boo);
+    console.log ('boo');
 }
 
 fooBoo (true, foo, boo);
